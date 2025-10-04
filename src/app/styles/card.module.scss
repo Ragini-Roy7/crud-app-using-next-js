@@ -1,0 +1,29 @@
+.card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1.2rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+
+  h3 {
+    margin: 0 0 .5rem;
+    color: #0070f3;
+  }
+
+  .actions {
+    margin-top: 1rem;
+    display: flex;
+    gap: .5rem;
+
+    button {
+      flex: 1;
+      border: none;
+      padding: .5rem;
+      border-radius: 5px;
+      color: white;
+      cursor: pointer;
+    }
+
+    button:first-child { background: #f59e0b; }
+    button:last-child { background: #ef4444; }
+  }
+}

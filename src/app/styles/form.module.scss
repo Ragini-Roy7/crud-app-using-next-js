@@ -1,0 +1,21 @@
+.form {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0;
+
+  input {
+    flex: 1;
+    padding: .6rem;
+    border: 1px solid #e78989;
+    border-radius: 6px;
+  }
+
+  button {
+    background: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: .6rem 1.2rem;
+    cursor: pointer;
+  }
+}
